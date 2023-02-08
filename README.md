@@ -36,3 +36,5 @@ If this is your first time launching the application, you will be prompted to lo
 Once you have logged in, the application will start listening for messages.
 
 The messages of the target users will be logged on `stdout`.
+
+Note: To sign in with other account, terminate the script and delete the file `selective-listener.session`, then start the script again. You will be prompted for log in again.

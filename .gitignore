@@ -1,5 +1,6 @@
 # Telethon sessions
 *.session
+*.session-journal
 
 # Script configurations
 config.yaml
@@ -12,6 +13,9 @@ bin/
 
 # C extensions
 *.so
+
+# SQLite3 DB file
+*.db
 
 # Distribution / packaging
 .Python
@@ -135,3 +139,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Other local files
+sampleresponse.txt
